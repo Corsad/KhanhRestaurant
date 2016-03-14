@@ -1,4 +1,4 @@
-CoderRestaurant Website
+# CoderRestaurant Website
 
 Coder Restaurant is a Ruby on Rails restaurant website let users order foods.
 
@@ -6,8 +6,10 @@ Submitted by: Dang Kim Khanh
 
 Time spent: 7 hours spent in total
 
-URL: heroku-app-url
-User Stories
+URL: https://khanh-restaurant.herokuapp.com
+
+## User Stories
+
 Required:
 
     [x]User must be able to go two pages: Menu, and Contact Us.
@@ -52,19 +54,19 @@ The following known issues:
 
     [ ]List bugs or things that don't work yet
 
-Video Walkthrough
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-GIF created with LiceCap.
+![Video Walkthrough](https://github.com/Corsad/KhanhBlog-Ruby/blob/master/image/gif/walkthrough.gif?raw=true)
 
-Notes
+## Notes
 
 Describe any challenges encountered while building the app.
 
-I tried to use select_tag to generate a list of sorting_options
+I tried to use select_tag to generate a list of sorting_options and generate sections in _form.html.erb but can't make the form to accept it as a parameters.
 
-License
+## License
 
 Copyright [2016] [Dang Kim Khanh]
 
