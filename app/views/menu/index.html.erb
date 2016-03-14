@@ -2,7 +2,7 @@
 <ul class="nav nav-pills">
 	<% @sections.each do |section| %>
 	<li class="nav-item">
-		<%= link_to section, menu_path(section: section, current_sort: params[:current_sort]) , class:"nav-link #{params[:section] == section ? 'active' : ''}" %>
+		<%= link_to section, menu_path(section: section) , class:"nav-link #{params[:section] == section ? 'active' : ''}" %>
 	</li>
 	<% end %>
 
@@ -13,7 +13,7 @@
 			</button>
 			<div class="dropdown-menu">
 					<% @sorting_options.each do |option| %>
-						<%= link_to option, menu_path(section: params[:section], current_sort: option), class:"dropdown-item #{params[:current_sort] == option ? 'active' : ''}"  %>
+						<%= link_to option, menu_path(, current_sort: option), class:"dropdown-item #{params[:current_sort] == option ? 'active' : ''}"  %>
 					<% end %>
 			</div>
 		</div>
