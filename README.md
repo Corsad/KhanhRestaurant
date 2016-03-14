@@ -58,7 +58,7 @@ The following known issues:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://github.com/Corsad/KhanhBlog-Ruby/blob/master/image/gif/walkthrough.gif?raw=true)
+![Video Walkthrough](https://github.com/Corsad/KhanhRestaurant/blob/master/image/gif/walkthrough%202.gif?raw=true)
 
 ## Notes
 
