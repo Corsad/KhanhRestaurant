@@ -1,0 +1,10 @@
+<% if  flash[:success]%>
+	<div class="alert alert-success"> <%= flash[:success] %></div>
+<% end %>
+
+<h1>Thanks you for ordering</h1>
+<p>You ordered: <%= @food_item.name %></p>
+<p>Price and Delivery cost: <%= @food_item.price + 20000 %> </p>
+<p>You are: <%= @order.name %></p>
+<p>Address: <%= @order.address %></p>
+<p>Ordered at: <%= @order.created_at.strftime("%A, %b %d, %H:%M") %></p>
