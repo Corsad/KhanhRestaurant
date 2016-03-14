@@ -57,9 +57,11 @@ Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
 GIF created with LiceCap.
+
 Notes
 
 Describe any challenges encountered while building the app.
+
 I tried to use select_tag to generate a list of sorting_options
 
 License
